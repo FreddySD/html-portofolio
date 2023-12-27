@@ -2,8 +2,15 @@ html {
     background-color: slategrey;
 }
 
+div{
+width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+    
+}
+
 img{
-    margin-left: 25%;
+    
     height: 400px;
     width: auto;
 }
