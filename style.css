@@ -2,13 +2,6 @@ html {
     background-color: slategrey;
 }
 
-div{
-width: 50%;
-  margin-left: 25%;
-  margin-top: 100px;
-    
-}
-
 img{
     
     height: 400px;
@@ -22,3 +15,28 @@ h1, h2, h3, ul {
     border: 20px solid aliceblue;
 }
 
+a::after{
+    text-decoration: none;
+    color: black;
+}
+a::before{
+    text-decoration: none;
+    color: black;
+
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+a:link{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
