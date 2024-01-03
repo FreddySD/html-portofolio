@@ -1,6 +1,84 @@
 html {
     background-color: gray;
+    font-family: 'soriasoria';
 }
+
+@font-face {
+    font-family: 'soriasoria';
+    src: url('soria-font-webfont.eot');
+    src: url('soria-font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('soria-font-webfont.woff2') format('woff2'),
+         url('soria-font-webfont.woff') format('woff'),
+         url('soria-font-webfont.ttf') format('truetype'),
+         url('soria-font-webfont.svg#soriasoria') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+  .main {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+  
+  .title-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+  }
+  
+  .card{
+    width: 45%;
+  
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right{
+    float: right;
+  }
+  
+  .creative {
+    color: midnightblue;
+  }
+  
+  @media (max-width: 800px) {
+  .logo {
+    width: 100px;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  
+  }
 
 img{
     
@@ -11,7 +89,6 @@ img{
 h1, h2, h3, ul {
     text-align: center;
     padding: 50px;
-    font-family: cursive;
     border: 20px solid aliceblue;
 }
 
