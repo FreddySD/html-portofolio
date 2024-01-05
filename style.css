@@ -122,9 +122,18 @@ a:active{
 
 #projects {
     text-align: center;
+    float: left;
     
 }
 
 #projects a {
     font-size: 3rem ;
+}
+
+
+footer {
+   
+    width: 100%;
+    text-align: center;
+    background-color: #1F2833
 }
